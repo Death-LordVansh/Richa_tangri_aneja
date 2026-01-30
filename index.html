@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Richa Aneja - Award-winning vocalist, Indian Idol Top 10 finalist, and Assistant Professor of Music. Discover her performances, awards, and musical journey.">
+    <meta name="keywords" content="Richa Aneja, vocalist, Indian singer, music teacher, Indian Idol, classical music">
+    <meta name="author" content="Richa Aneja">
+    <meta property="og:title" content="Richa Aneja - A Voice That Echoes Beyond Generations">
+    <meta property="og:description" content="Discover the musical journey of award-winning vocalist Richa Aneja">
+    <meta property="og:image" content="main.jpeg">
+    <meta property="og:url" content="https://richaaneja.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MusicGroup",
+        "name": "Richa Aneja",
+        "description": "Award-winning vocalist and music teacher",
+        "image": "images/img1.jpg",
+        "jobTitle": "Assistant Professor of Music",
+        "genre": ["Classical", "Bollywood", "Devotional"],
+        "award": "Indian Idol Top 10 Finalist"
+    }
+    </script>
+    
+    <title>Richa Aneja - Award-Winning Vocalist & Music Teacher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Skip Navigation Link for Accessibility -->
+    <a href="#main-content" class="skip-nav">Skip to main content</a>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <img src="main.jpeg" alt="Richa Aneja Logo" class="logo-img">
+                <span class="logo-text">Richa Aneja</span>
+            </div>
+            
+            <!-- Hamburger Menu Button -->
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+
+            <!-- Navigation Menu -->
+            <nav class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="earlylife.html" class="nav-link">Early Life</a>
+                <a href="performances.html" class="nav-link">Performances</a>
+                <a href="awards.html" class="nav-link">Awards</a>
+                <a href="#contact" class="nav-link cta-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Splash Screen (Reduced from 5s to 2s) -->
+<div id="splash-screen" class="splash-screen">
+    <div class="splash-content">
+        <img src="main.jpeg" alt="Richa Aneja" class="splash-logo">
+        <h1 class="splash-title">Richa Aneja</h1>
+        <p class="splash-subtitle">A Voice That Echoes Beyond Generations</p>
+        <div class="splash-audio">
+            <audio id="splash-audio" autoplay>
+                <source src="splash.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section with Image Carousel -->
+        <section class="hero">
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-slide fade">
+                        <img src="images/IMG-20250806-WA0003.jpg" alt="Richa Aneja on stage - Performance 1">
+                    </div>
+                    <div class="carousel-slide fade">
+                        <img src="images/IMG-20250806-WA0004.jpg" alt="Richa Aneja on stage - Performance 2">
+                    </div>
+                    <div class="carousel-slide fade">
+                        <img src="images/IMG-20250806-WA0006.jpg" alt="Richa Aneja on stage - Performance 3">
+                    </div>
+                    <div class="carousel-slide fade">
+                        <img src="images/IMG-20250806-WA0005.jpg" alt="Richa Aneja on stage - Performance 4">
+                    </div>
+                    <div class="carousel-slide fade">
+                        <img src="images/IMG-20250806-WA0007.jpg" alt="Richa Aneja on stage - Performance 5">
+                    </div>
+                    <div class="carousel-slide fade">
+                        <img src="images/IMG-20250806-WA0008.jpg" alt="Richa Aneja on stage - Performance 6">
+                    </div>
+                    <div class="carousel-slide fade">
+                        <img src="images/IMG-20250806-WA0009.jpg" alt="Richa Aneja on stage - Performance 7">
+                    </div>
+                    <div class="carousel-slide fade">
+                        <img src="images/IMG-20250806-WA0010.jpg" alt="Richa Aneja on stage - Performance 8">
+                    </div>
+
+                    <!-- Carousel Controls -->
+                    <button class="carousel-prev" onclick="changeSlide(-1)" aria-label="Previous slide">❮</button>
+                    <button class="carousel-next" onclick="changeSlide(1)" aria-label="Next slide">❯</button>
+                </div>
+
+                <!-- Carousel Indicators -->
+                <div class="carousel-indicators">
+                    <span class="indicator" onclick="currentSlide(1)" aria-label="Go to slide 1"></span>
+                    <span class="indicator" onclick="currentSlide(2)" aria-label="Go to slide 2"></span>
+                    <span class="indicator" onclick="currentSlide(3)" aria-label="Go to slide 3"></span>
+                    <span class="indicator" onclick="currentSlide(4)" aria-label="Go to slide 4"></span>
+                    <span class="indicator" onclick="currentSlide(5)" aria-label="Go to slide 5"></span>
+                    <span class="indicator" onclick="currentSlide(6)" aria-label="Go to slide 6"></span>
+                    <span class="indicator" onclick="currentSlide(7)" aria-label="Go to slide 7"></span>
+                    <span class="indicator" onclick="currentSlide(8)" aria-label="Go to slide 8"></span>
+                </div>
+            </div>
+
+            <div class="hero-overlay">
+                <h1>A Life in Melody</h1>
+                <p>Discover the Voice Behind the Music</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about">
+            <div class="container">
+                <h2>🎤 Meet Richa Aneja</h2>
+                <p>In a world filled with fleeting trends and digital noise, Richa Aneja stands as a timeless melody—rooted in tradition, yet always evolving. An award-winning vocalist, an Indian Idol Top 10 finalist, and an Assistant Professor of Music (Vocal), Richa has spent her life weaving emotion, discipline, and artistry into every note she sings and teaches.</p>
+                
+                <div class="highlights">
+                    <div class="highlight-card">
+                        <h3>🎵 Performer</h3>
+                        <p>Top 10 finalist on Indian Idol Season 3, captivating audiences nationwide</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>🎼 Educator</h3>
+                        <p>Assistant Professor of Music, mentoring the next generation of artists</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>🌟 Artist</h3>
+                        <p>Recognized for excellence in classical, devotional, and contemporary music</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Features Section -->
+        <section class="features">
+            <div class="container">
+                <h2>Explore Her World</h2>
+                <div class="features-grid">
+                    <a href="earlylife.html" class="feature-card">
+                        <div class="feature-icon">📖</div>
+                        <h3>Early Life</h3>
+                        <p>Discover her journey from Amritsar to national fame, trained in the Gwalior Gharana tradition</p>
+                    </a>
+                    <a href="performances.html" class="feature-card">
+                        <div class="feature-icon">🎤</div>
+                        <h3>Performances</h3>
+                        <p>Explore her diverse performances across classical, devotional, and contemporary genres</p>
+                    </a>
+                    <a href="awards.html" class="feature-card">
+                        <div class="feature-icon">🏆</div>
+                        <h3>Awards & Recognition</h3>
+                        <p>Learn about her prestigious accolades and national recognitions</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+       
+        <!-- Call-to-Action Section -->
+        <section class="cta" id="contact">
+            <div class="container">
+                <h2>Ready to Experience the Magic?</h2>
+                <p>Book a performance, attend a workshop, or get in touch</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary" onclick="openContactForm()">Get In Touch</button>
+                    <button class="btn btn-secondary" onclick="openBookingForm()">Book a Performance</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About Richa Aneja</h4>
+                    <p>Award-winning vocalist, Indian Idol Top 10 finalist, and music educator dedicated to preserving and promoting Indian classical music.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="earlylife.html">Early Life</a></li>
+                        <li><a href="performances.html">Performances</a></li>
+                        <li><a href="awards.html">Awards</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/richa_aneja/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">Instagram</a>
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">Facebook</a>
+                        <a href="https://www.youtube.com/@richaanejaindianidolfame1950" target="_blank" rel="noopener noreferrer" aria-label="YouTube">YouTube</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: <a href="mailto:richa@example.com">richa@example.com</a></p>
+                    <p>Phone: <a href="tel:+919876543210">+91 98765 43210</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Richa Aneja. All rights reserved. | <button id="pp" style="background-color: antiquewhite;">Privacy policy</button> | <button id="tos"  style="background-color: antiquewhite;">Terms of service</button></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact Form Modal -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeContactForm()">&times;</span>
+            <h2>Get In Touch</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Booking Form Modal -->
+    <div id="bookingModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeBookingForm()">&times;</span>
+            <h2>Book a Performance</h2>
+            <form>
+                <input type="text" placeholder="Event Name" required>
+                <input type="date" placeholder="Event Date" required>
+                <input type="text" placeholder="Venue" required>
+                <textarea placeholder="Event Details" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Submit Request</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
